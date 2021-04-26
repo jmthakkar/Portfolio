@@ -1,0 +1,48 @@
+.content{
+  border-style: solid;
+  border-color: blue;
+}
+
+header{
+  border-style: solid;
+  border-color: green;
+}
+.column {
+  float: left;
+  border-style: solid;
+  margin: auto;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+exp{
+  border-style: solid;
+  border-color: orange;
+}
+
+.book{
+  border-style: solid;
+  border-color: lime;
+}
+
+aname{
+  border-style: solid;
+  border-color: cyan;
+}
+
+p{
+  /*border-style: solid;*/
+  border-color: grey;
+  border-width: 2px;
+}
+
+footer{
+  border-style: solid;
+  border-color: magenta;
+}
